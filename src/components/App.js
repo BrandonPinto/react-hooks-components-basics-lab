@@ -1,5 +1,7 @@
 import React from "react";
-
+import Home  from "./Home";
+import About from "./About";
+import Navbar from "./Navbar";
 function NavBar() {
   return (
     <nav>
@@ -16,15 +18,15 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
+<About />
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
